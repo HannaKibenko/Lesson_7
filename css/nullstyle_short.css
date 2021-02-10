@@ -1,0 +1,166 @@
+/* Подключаю шрифт */
+@import url("https://fonts.googleapis.com/css2?family=Gabriela&display=swap");
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+/* ------------------ */
+body {
+	font-family: gabriela;
+	background: linear-gradient(135deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+}
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+.header {
+	background: url("../img/unnamed.png");
+	padding: 30px 0;
+}
+.logo {
+	margin: 0 100px 0 0;
+	display: inline-block;
+}
+.logo__image {
+	margin: 0 5px 0 0;
+	max-width: 50px;
+	filter: drop-shadow(2px 2px 1px #d3d3da);
+}
+.logo__text {
+	color: cornsilk;
+	border-color: cadetblue;
+	display: inline-block;
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 10px 0 0 0;
+}
+.menu {
+	display: inline-block;
+	font-size: 20px;
+	margin: 0 20px 0 0;
+}
+.menu__list li {
+	background: url("../img/icons/check1.png") 0 2px / 20px no-repeat;
+	display: inline-block;
+	padding: 0 0 0 23px;
+	margin: 0 30px 0 0;
+}
+.menu__list a {
+	color: cornsilk;
+}
+
+.phone {
+	white-space: nowrap;
+	font-size: 20px;
+	color: cornsilk;
+	background: url("../img/icons/phone-call1.png") 0 1px / 25px no-repeat;
+	padding: 0 0 0 35px;
+}
+.main {
+	padding: 50px 0;
+	color: cornsilk;
+	background: url("../img/tmb_147453_9135.jpg") 0 50px / cover no-repeat fixed, rgb(0, 0, 0);
+}
+
+.title {
+	padding: 30px 0 0 0;
+	text-align: center;
+	font-size: 20px;
+	margin: 0 0 30px 0;
+}
+.subtitle {
+	max-width: 600px;
+	text-align: center;
+	margin: 0 auto;
+}
+.text {
+	padding: 60px 0 0 0;
+	text-align: justify;
+	margin: 0 0 60px 0;
+	text-indent: 50px;
+}
+.text p {
+	line-height: 200%;
+}
+.button {
+	display: block;
+	max-width: 300px;
+	color: cornsilk;
+	font-size: 20px;
+	background-color: rgb(14, 108, 170);
+	border-radius: 30px;
+	padding: 20px 50px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0 300px 0 0;
+}
+.button span {
+	background: url("../img/icons/horse-jumping-silhouette.png") left 0px / 25px no-repeat;
+	padding: 0 0 0 30px;
+}
+
+.button__2 {
+	display: block;
+	color: cornsilk;
+	text-transform: uppercase;
+	background-color: rgb(228, 124, 76);
+	max-width: 300px;
+	padding: 20px 50px;
+	border-radius: 30px;
+	text-align: center;
+	font-size: 20px;
+	margin: 0 0 0 300px;
+}
+.button__2 span {
+	background: url("../img/icons/horse-jumping-silhouette2.png") right 0 / 25px no-repeat;
+	padding: 0 30px 0 0;
+}
+.link {
+	display: inline-block;
+}
+.bottom {
+	padding: 50px 0;
+	background: url("../img/depositphotos_66058647-stock-photo-black-stallion-horse.jpg") 0 0 / cover no-repeat;
+}
+.footer {
+	background: url("../img/icons/check1.png") 85% 55% / 35px no-repeat,
+		url("../img/icons/check1.png") 75% 50% / 35px no-repeat, url("../img/icons/check1.png") 70% 65% / 35px no-repeat,
+		url("../img/icons/check1.png") 30% 50% / 35px no-repeat, url("../img/icons/check1.png") 10% 10% / 35px no-repeat,
+		url("../img/icons/check1.png") 0 0 / 35px no-repeat, url("../img/unnamed.png");
+}
+.footer li {
+	padding: 50px;
+	background: url("../img/icons/check1.png") 0 center / 25px no-repeat;
+}
+.footer a {
+	color: cornsilk;
+	font-size: 20px;
+}
